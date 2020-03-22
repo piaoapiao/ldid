@@ -44,6 +44,16 @@
          runnableDebuggingMode = "0"
          FilePath = "/Users/guodong/Documents/jailbreak/ldid/git/ldid/ldid2">
       </PathRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-Sentitlements.plist"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "fsmon"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

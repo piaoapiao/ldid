@@ -801,6 +801,7 @@ int main(int argc, const char *argv[]) {
         if (argv[argi][0] != '-')
             files.push_back(argv[argi]);
         else switch (argv[argi][1]) {
+            printf("parameter:%s",argv[argi][1]);
             case 'R': flag_R = true; break;
             case 'r': flag_r = true; break;
 
